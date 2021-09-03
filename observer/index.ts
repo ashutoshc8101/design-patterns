@@ -191,4 +191,7 @@ weatherStation.registerObserver(weatherApp);
  * 2. Loose coupling, the subject and observer have only knowledge of the
  * interfaces that they implement. Changes can be made easily as they are
  * less inter dependent.
+ *
+ * The same weather app object will work with another weatherStation
+ * implementing the Subject<number> interface and vice-versa.
  */
